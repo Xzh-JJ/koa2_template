@@ -1,0 +1,41 @@
+{
+  "name": "my-koa-server",
+  "version": "1.0.0",
+  "description": "personal-website后台",
+  "main": "index.js",
+  "author": "xzh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js --exec babel-node"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "superagent": "^6.1.0",
+    "superagent-charset": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "ioredis": "^4.28.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.3",
+    "module-alias": "^2.2.2",
+    "mysql2": "^2.3.3",
+    "node-uuid": "^1.4.8",
+    "request": "^2.88.2",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.11.0",
+    "superagent": "^6.1.0",
+    "superagent-charset": "^1.2.0"
+  },
+  "_moduleAliases": {
+    "@main": "./src/main"
+  }
+}
